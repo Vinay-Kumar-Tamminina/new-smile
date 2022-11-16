@@ -1,17 +1,20 @@
 
 .contact-container {
     padding: 20px;
-    margin: 20px;
+    background-color: #c7ddcc;
 }
 .get-container {
     margin: 40px;
 }
 .get-heading {
-    font-weight: bolder;
+    font-weight: bold;
+    font-size: 25px;
+    color: #16123f;
 }
 .get-para {
     font-size: 16px;
     width: 35%;
+    color: #16123f;
 }
 .form-container {
    margin: 20px;
@@ -19,21 +22,25 @@
    flex-direction: row;
    justify-content: space-between;
    padding: 20px;
+   
 }
 .label-1 {
-    font-weight: bold;
+    font-weight: 400;
     font-size: 16px;
     margin-top: 10px;
+    color: #16123f;
 }
 .label-2 {
     width: 60%;
-    height: 25px;
+    height: 32px;
     margin-bottom: 10px;
     outline: none;
     padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #16123f;
 }
 .form-button {
-    background-color: rgb(0, 0, 0);
+    background-color: #16123f;
     width: 120px;
     height:35px;
     border: none;
@@ -42,20 +49,38 @@
     font-weight: bold;
 
 }
+.form-button:hover {
+    background-color: rgb(0, 155, 65);
+    color: #16123f;
+    transition: all 0.2s ease-in-out;
+
+}
 
 
 .contact-2-container {
     width: 50%;
+    margin: 15px;
+    
 }
 .form-2-container {
-    width: 50%;
+    width: 80%;
 }
 .c-head {
-    font-size: 20px;
-    margin:10px
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom:10px;
+    color: #16123f;
 }
 .lgo-span {
-    margin: 8px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.cp {
+    font-size: 18px;
+    color: #16123f;
+    text-indent: -40px;
+    margin: 25px;
 }
 
 
@@ -65,8 +90,8 @@
         padding: 0px;
      }
      .get-container {
-        padding: 0px;
-        margin: 20px;
+        padding: 20px;
+        margin: 0px;
      }
      .get-para {
         width: 100%;
@@ -80,8 +105,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0px;
-        margin: 20px;
+        padding: 20px;
+        margin: 0px;
      }
      .label-2 {
        width: 80%;
@@ -96,6 +121,13 @@
         margin-top: 20px;
      }
      .c-head {
+        margin: 0px;
+        margin-bottom: 10px;
+     }
+     .cp {
+        text-indent: -35px;
+     }
+     .cp-container {
         margin: 0px;
      }
 }

@@ -4,8 +4,18 @@
     align-items: center;
     align-self: left;
     flex-wrap: wrap;
-   
 }
+
+.products-img-container{
+    width: 100vw;
+}
+
+.products-img {
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+}
+
 .product-main-container {
     display: flex;
     justify-content: center;
@@ -30,6 +40,8 @@
     border-left: none;
     border-right: none;
     text-transform: capitalize;
+    font-size: 32px;
+    margin-top: 20px;
 }
 
 
@@ -39,6 +51,15 @@
         justify-content: center;
         align-items: center;
         padding: 0;
+    }
+    .products-head{
+        font-size: 18px;
+    }
+
+    .products-img {
+        background-size: cover;
+        width: 100vw;
+        height: 30vh;
     }
 }
 

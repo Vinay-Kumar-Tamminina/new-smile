@@ -15,15 +15,6 @@ const Login = () => {
     </div>  
   );
 
-  const OtherMethods = props => (
-    <div id="alternativeLogin">
-      <label>Or sign in with:</label>
-      <div id="iconGroup">
-       
-      </div>
-    </div>
-  );
-
   const Form = props => (
     <div>
       <FormInput description="Username" placeholder="Enter your username" type="text" />
@@ -37,15 +28,14 @@ const Login = () => {
 );
   
     return (
-      <>
+      <div className='login-container'>
       <div id="loginform">
-      <FormHeader title="Login" />
+      <FormHeader title="Farmer Login" />
       <Form />
-      <OtherMethods />
-      
     </div>
-    <Footer/>
-    </>
+    <Footer />
+    </div>
+    
     )
 }
 

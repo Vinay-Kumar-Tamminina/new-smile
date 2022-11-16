@@ -21,14 +21,13 @@ const Footer = () => {
                     </div>   
                 <div className='usefull-container'>
                     <div className='links-l-container'>
-                        <h1 className='usefull-head'>Usefull Links</h1>
+                        <h1 className='usefull-head'>Navigate to</h1>
                         <ul className='usefull-links-l' id="list">
                             <li ><a className='us-l' href='/'>Home</a></li>
                             <li><a  className='us-l' href='/About'>About</a></li>
                             <li><a className='us-l' href='/Products'>Products</a></li>
-                            <li><a className='us-l' href='/Conatct'>Contact Us</a></li>
-                            {/* <li><a className='us-l' href='/'>Help Center</a></li> */}
-                            <li><a className='us-l' href='/'>Log In</a></li>
+                            <li><a className='us-l' href='/Contactus'>Contact Us</a></li>
+                        
                         </ul>
                     </div>    
                 </div>
@@ -53,7 +52,7 @@ const Footer = () => {
                 </div> 
                 
                 </div>
-                <h4>Subscribe Our Youtube Channel</h4>
+                <h6 className='follow-head'>Subscribe Our Youtube Channel</h6>
                 <div className='youtube-container'>
                 <ImYoutube2 className='yotube-icon'/>
                 </div>

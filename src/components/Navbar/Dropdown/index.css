@@ -1,0 +1,24 @@
+.dropdown {
+    background-color: transparent;
+    
+}
+.btn-primary {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #16123f;
+}
+.btn:hover {
+    background-color: transparent;
+    color: white;
+
+    
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: black;
+    background-color: transparent;
+     border-color: none; 
+
+}

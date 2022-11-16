@@ -30,9 +30,10 @@
 .main-heading{
     color: white;
     font-size: 26px;
-    font-weight: 400;
+    font-weight: 500;
     word-spacing: 3px;
     letter-spacing: 1px;
+    margin-bottom: 30px;
 }
 
 .heading{
@@ -41,27 +42,29 @@
     font-size: 52px;
     word-spacing: 3px;
     letter-spacing: 1px;
+    margin-bottom: 30px;
 }
 
 .main{
     color: white;
     font-size: 32px;
-    border: 2px solid white;
+    border: 3px solid white;
     padding: 10px;
+
     
 }
 @keyframes animate{
     0%, 100%{
-        background-image: url("https://cdn.pixabay.com/photo/2016/11/30/15/23/apples-1873078_1280.jpg");
+        background-image: url("https://img.freepik.com/premium-photo/assortment-fresh-vegetables-capsicum-shimla-mirchi-lemon-spicy-green-chilly-coriander-sell-indian-market_14349-171.jpg?w=1060");
     }
     25%{
-        background-image: url("https://cdn.pixabay.com/photo/2017/06/15/16/50/panorama-2405958__480.jpg");
+        background-image: url("https://img.freepik.com/free-photo/dried-chili-pepper-small-sack-bag_1150-35717.jpg?w=900&t=st=1668509904~exp=1668510504~hmac=adff93d2b54122c39d364f3b43ca77cd92839ab1612f66a90c7d19716d3e4abf");
     }
     50%{
-        background-image: url("https://cdn.pixabay.com/photo/2014/09/09/19/07/corn-field-440338_1280.jpg");
+        background-image: url("https://img.freepik.com/free-photo/paddy-hands-men-with-paddy_1150-17231.jpg?w=900&t=st=1668510050~exp=1668510650~hmac=ed8eccd989fe5d01b54e5aba828668d5f465b160e753fa4f9b2bc18795d51ae9");
     }
     75%{
-        background-image: url("https://cdn.pixabay.com/photo/2017/05/19/15/16/countryside-2326787_1280.jpg");
+        background-image: url("https://img.freepik.com/premium-photo/rice-field-is-waiting-harvest_174431-187.jpg?w=900");
     }
 
 }

@@ -33,8 +33,8 @@ const ContactUs = () => {
            </div>
            <div>
              <p><span className='lgo-span'><AiFillHome/></span>Saraswathi nagar, Chinnathirupathy salem-636008</p>
-             <p><span className='lgo-span'><MdCall/></span>956-6753-333</p>
-             <p><span className='lgo-span'><MdMail/></span>abc@agrotech.com</p>
+             <p><span className='lgo-span'><MdCall/></span>xxx-xxxx-xxx</p>
+             <p><span className='lgo-span'><MdMail/></span>smilegreenindia.com</p>
              <p><span className='lgo-span'><AiFillUnlock/></span> Monday-Saturday  09:30am-03:30pm</p>
              <p><span className='lgo-span'><AiFillLock/></span>Sunday closed</p>
            </div> 

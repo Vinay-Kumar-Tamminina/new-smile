@@ -1,10 +1,16 @@
 .main-products-container {
     padding: 20px;
     display: flex;
-    flex-direction: column;
+    /* display: grid;
+    grid-template-columns: repeat(5, 200px);
+    flex-direction: column; */
     justify-content: center;
     align-items: center;
 }
+
+
+
+
 .product-head-container {
     display: flex;
     flex-direction: row;
@@ -91,5 +97,13 @@
         height: 180px;
         border-radius: 0px;
     }
+    
 }
 
+@media only screen and (min-width: 1024px) and (max-width:1440px) {
+    .product-image {
+        width: 270px;
+        height: 270px;
+        border-radius: 0px;
+    }
+}

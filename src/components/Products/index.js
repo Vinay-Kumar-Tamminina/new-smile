@@ -11,6 +11,7 @@ import product9 from '../../components/ProductItem/img/product9.jpg'
 import product10 from '../../components/ProductItem/img/product10.jpg'
 import product11 from '../../components/ProductItem/img/product11.jpg'
 import Footer from '../Footer'
+import productsbackground from './productsbackground.jpg'
 import './index.css'
 
 
@@ -90,6 +91,10 @@ const Products = () => {
     return (
         <>
         <div className='product-main-container'>
+            <div className='products-img-container'>
+            <img className='products-img' src={productsbackground} alt="products-img"/>
+            </div>
+            
         <div className='product-head-container'>
          <h1 className='products-head'>OUR PRODUCTS</h1>
         </div>

@@ -1,8 +1,8 @@
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 import './index.css'
 const ProductItem = (props) => {
     const {productDetails} = props
-    const {name, price, img, moredetails} = productDetails
+    const {name,  img} = productDetails
 
     return (
         <div className='main-products-container'>

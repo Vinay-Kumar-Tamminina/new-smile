@@ -32,7 +32,7 @@ const ContactUs = () => {
               <h1 className='c-head'>Contact</h1>
            </div>
            <div>
-             <p><span className='lgo-span'><AiFillHome/></span>Saraswathi nagar, Chinnathirupathy salem-636008</p>
+             <p><span className='lgo-span'><AiFillHome/></span>Saraswathi nagar, Mirchi Yard, Guntur-636008</p>
              <p><span className='lgo-span'><MdCall/></span>xxx-xxxx-xxx</p>
              <p><span className='lgo-span'><MdMail/></span>smilegreenindia.com</p>
              <p><span className='lgo-span'><AiFillUnlock/></span> Monday-Saturday  09:30am-03:30pm</p>

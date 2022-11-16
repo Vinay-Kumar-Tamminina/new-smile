@@ -198,8 +198,7 @@ label{
   .crop-main-container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
+   
   
   }
   .manure-crop-main-container {

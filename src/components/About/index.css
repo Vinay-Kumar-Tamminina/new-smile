@@ -37,15 +37,16 @@
 
 .each-head{
     font-weight: 500;
-    font-size: 28px;
+    font-size: 24px;
     color: #16123f;
     padding: 8px;
     border-radius: 5px;
     margin-bottom: 20px;
+    text-decoration: underline;
 }
 
 .each-description{
-    font-size: 22px;
+    font-size: 18px;
     font-weight: normal;
     word-spacing: 3px;
     letter-spacing: 0.5px;

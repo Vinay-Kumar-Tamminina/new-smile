@@ -1,4 +1,5 @@
 import Footer from '../Footer'
+
 import './index.css'
 const About = () => {
     return (
@@ -35,6 +36,7 @@ const About = () => {
               </div>
             </div>
           </div>
+  
         <Footer/>
         </div>
     )

@@ -7,6 +7,7 @@
     animation: animate 12s step-start infinite;
     background-size: cover;
     margin: auto;
+    
 }
 
 .image-container{
@@ -119,7 +120,7 @@
 }
 
 .para {
-  font-size: 22px;
+  font-size: 18px;
   font-weight: normal;
   word-spacing: 3px;
   letter-spacing: 0.5px;
@@ -129,7 +130,7 @@
 .head {
   word-spacing: 1px;
   letter-spacing: 1px;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 600;
   text-transform: capitalize;
   color: #16123f;

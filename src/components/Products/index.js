@@ -11,7 +11,6 @@ import product9 from '../../components/ProductItem/img/product9.jpg'
 import product10 from '../../components/ProductItem/img/product10.jpg'
 import product11 from '../../components/ProductItem/img/product11.jpg'
 import Footer from '../Footer'
-import productsbackground from './productsbackground.jpg'
 import './index.css'
 
 
@@ -92,7 +91,7 @@ const Products = () => {
         <>
         <div className='product-main-container'>
             <div className='products-img-container'>
-            <img className='products-img' src={productsbackground} alt="products-img"/>
+            <img className='products-img' src="https://img.freepik.com/premium-vector/horizontal-flat-banner-organic-fertilizer-spikes_82574-2817.jpg?size=626&ext=jpg&ga=GA1.2.1587503888.1663429595&semt=sph" alt="products-img"/>
             </div>
             
         <div className='product-head-container'>
